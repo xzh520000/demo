@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style: none;
+}
+h3{
+    font-weight: normal; 
+    text-align: center; 
+    padding: 20px;
+}
+#header{
+    background-color:#FFD705; 
+    padding: 10px 20px; 
+    overflow: hidden;
+}
+#header ul{
+     width: 442px;
+     margin: auto;
+    }
+#header ul li{
+    float: left;
+}
+  #header input{
+    font-size: 20px;
+    width: 280px; 
+    height: 32px; 
+    border-radius: 20px 0 0 20px;
+    outline: none;
+    border: 1px solid #ccc;
+    text-indent: 2em;
+ }
+#header ul li:nth-of-type(2){
+    font-size: 0;
+}
+#header ul li span{
+    display: inline-block;
+    padding: 9px 26px; 
+    background-color:#6B450A; 
+    color: #fff;
+    font-size: 12px; 
+    border-radius: 0 20px 20px 0;
+}
+#goods {
+    margin: auto;
+    width: 1200px;
+    overflow: hidden;
+}
+#goods ul{
+    width: 1200px;
+     margin: auto; 
+     display: flex;
+     justify-content: space-between;
+    }
+#goods ul li{
+    width: 280px; 
+    font-size: 14px;
+}
+#goods ul li img{
+    width:280px;
+}
+#goods ul li dt{
+    line-height: 2em;
+}
+#goods ul li dt:nth-of-type(2n+1){
+    display: flex; 
+    justify-content: space-between;
+}
+#goods ul li dt:nth-of-type(2n){
+    text-align: right;
+}
+#goods ul li dt:nth-of-type(2){
+    color: orange;
+}
+#goods ul li dt:nth-of-type(3){
+    color: #cccccc;
+}
+#car{
+    width: 1200px; 
+    margin: auto;
+    padding: 20px 0;
+    display: none;
+}
+#car table,th,td{
+    border:1px solid #cccccc
+}
+#car table{
+    width: 100%; 
+    border-collapse: collapse;
+}
+#car ul {
+    display: flex;
+     justify-content: space-between; 
+     padding: 20px 0;
+    }
+#car table tr td:nth-of-type(1){
+    text-align: center;
+}
+#car table tr td:nth-of-type(n+4){
+    text-align: center;
+} 
+#goods #liNode{
+float: left;
+}
+#goods #ulNode{
+    margin: 30px 0;
+    width: 25% ;
+    float: left;
+}
+#goods #ps{
+    float: right;
+}
+#goods #btn{
+    margin-right: -20px;
+  margin-top: 40px;
+    float: right;
+}
+#goods #aNodes{
+    line-height: 2em;
+}
+
+
+
+

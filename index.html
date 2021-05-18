@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>美团</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+    <div id="header">
+        <ul>
+            <li>
+                <img src="./images/logo.png" alt="">
+            </li>
+            <li>
+                <input type="text" name="" id="">
+                <span>搜索</span>
+            </li>
+        </ul>
+    </div>
+    <h3 onclick="showCar()">我的购物车(<span id="num">0</span>)</h3>
+    <div id="goods">
+
+    </div>
+    <div id="car">
+        <table id="c">
+            <tr>
+                <th>全选<input type="checkbox" id="s" onclick="checkAll(this)"></th>
+                <th>菜品</th>
+                <th>价格</th>
+                <th>数量</th>
+                <th>操作</th>
+            </tr>
+        </table>
+        <ul>
+            <li>
+                <input type="button" value="删除选中项" onclick="deleteSelected()">
+                <span onclick="showGoods()">继续点餐</span>
+                <span id="html"></span>
+            </li>
+            <li>
+                合计<span id="money">0</span>元
+                <input type="button" value="结算" onclick="pay()">
+            </li>
+        </ul>
+    </div>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
